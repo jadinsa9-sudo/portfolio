@@ -5,6 +5,7 @@ button.addEventListener("click", function () {
     document.body.classList.toggle("dark");
 });
 
+// shitty and manual
 // function updateDate() {
 //     const currentDate = new Date();
 
@@ -17,12 +18,13 @@ function displayDate(date) {
         "Last updated: " + date.toLocaleString("en-GB");
 }
 
-// https://api.github.com/repos/jadinsa9-sudo/portfolio/commits
+// shitty and manual
 // const saveDate = localStorage.getItem("lastUpdated");
 // if (saveDate) {
 //     displayDate(new Date(parseInt(saveDate)));
 // }
 
+//Better and steals github technology
 fetch("https://api.github.com/repos/jadinsa9-sudo/portfolio/commits")
   .then(response => response.json())
   .then(data => {
