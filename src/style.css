@@ -78,3 +78,7 @@ footer {
     background: #222;
     color: white;
 }
+
+.dark section{
+    border: 1px solid white;
+}
