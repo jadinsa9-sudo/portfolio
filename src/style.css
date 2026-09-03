@@ -58,6 +58,9 @@ body {
 
 header {
     padding: 1rem;
+    width: min(100%, 1000px);
+    margin: auto;
+    margin-bottom: 1rem;
 }
 
 header h1 {
@@ -67,7 +70,6 @@ header h1 {
 main {
     width: min(100%, 1000px);
     margin: auto;
-    padding: 2rem;
 }
 
 section {
